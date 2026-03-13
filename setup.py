@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="high-dimensional-consumer-data-pipeline",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="Production-grade ETL framework for high-dimensional consumer behavior data",
+    author="huangruiran666",
+    author_email="huangruiran666@users.noreply.github.com",
+    description="Compact ETL and modeling demo for alternative-data style financial analytics",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/High-Dimensional-Consumer-Data-Pipeline",
+    url="https://github.com/huangruiran666/analysis-system",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
