@@ -1,8 +1,13 @@
-# Python
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -16,67 +21,52 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Virtual Environment
-.venv/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
 venv/
 ENV/
-env/
-.python-version
+env.bak/
+venv.bak/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints/
-
-# Data
-data/raw/
-data/processed/
-data/external/
-*.csv
-*.parquet
-*.h5
-*.hdf5
-
-# Models
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.onnx
-mlruns/
-
-# Logs
-logs/
-*.log
-
-# IDE
-.vscode/
+# IDEs
 .idea/
+.vscode/
 *.swp
 *.swo
-*~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Testing
-.coverage
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-htmlcov/
-
-# MLflow
-mlruns/
-mlartifacts/
-
-# DVC
-.dvc/
-*.dvc
-
-# Environment variables
-.env
-.env.local
+# Project specific
+cache_data/
+reports/
